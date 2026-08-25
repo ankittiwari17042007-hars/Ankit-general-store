@@ -165,3 +165,15 @@ footer {
         max-width: 300px;
     }
 }
+.product-icon {
+    font-size: 55px;
+    margin-bottom: 12px;
+}
+
+.product-card {
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+}
