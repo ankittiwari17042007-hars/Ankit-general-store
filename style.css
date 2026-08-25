@@ -203,3 +203,37 @@ footer {
 .map-button:hover {
     background: #388e3c;
 }
+/* Beautiful Home Banner */
+
+.hero {
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 20px;
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url("https://images.unsplash.com/photo-1604719312566-8912e9c8a213");
+
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    max-width: 750px;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 42px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: white;
+}
